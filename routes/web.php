@@ -14,12 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    echo 'main page';
-});
-Route::get('catalog',function(){
-    echo 'catalog';
-});
-Route::get('catalog/{item}',function($item){
-    echo 'Item: ' .$item;
-    //asdasd
+    return view('welcome');
 });

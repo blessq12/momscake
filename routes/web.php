@@ -21,4 +21,5 @@ Route::get('catalog',function(){
 });
 Route::get('catalog/{item}',function($item){
     echo 'Item: ' .$item;
+    //asdasd
 });

@@ -2,7 +2,7 @@
 <div class="navbar-area">
     <!-- Menu For Mobile Device -->
     <div class="mobile-nav">
-        <a href="index.html" class="logo">
+        <a href="{{ route('index') }}" class="logo">
             <img src="assets/images/logos/logo-1.png" alt="Logo">
         </a>
     </div>
@@ -11,7 +11,7 @@
     <div class="main-nav">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light ">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="{{ route('index') }}">
                     <img src="assets/images/logos/logo-1.png" alt="Logo">
                 </a>
 

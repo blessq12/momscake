@@ -6,10 +6,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-4">
                     <div class="inner-content">
-                        <h2>CONTACT US</h2>
+                        <h2>Заказ и доставка</h2>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li>Contact Us</li>
+                            <li><a href="{{ route('index') }}">Главная</a></li>
+                            <li>Заказ и доставка</li>
                         </ul>
                     </div>
                 </div>

@@ -22,7 +22,7 @@
             <div class="d-table">
                 <div class="d-table-cell">
                     <img src="assets/images/preloder-img.png" alt="Images">
-                    <h2>Hilo</h2>
+                    <h2>Mom'sCake</h2>
                 </div>
             </div>
         </div>

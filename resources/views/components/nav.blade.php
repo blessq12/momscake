@@ -20,6 +20,12 @@
                         <li class="nav-item active">
                             <a href="{{ route('index') }}">Главная</a>
                         </li>
+                        <li class="nav-item active">
+                            <a href="{{ route('catalog') }}">Каталог</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="{{ route('delivery') }}">Заказ и доставка</a>
+                        </li>
                     </ul>
 
                     <div class="nav-right-side">

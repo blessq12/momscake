@@ -15,3 +15,5 @@ use App\Http\Controllers\Pages;
 */
 
 Route::get('/',[Pages::class,'index'])->name('index');
+Route::get('/catalog',[Pages::class,'catalog'])->name('catalog');
+Route::get('/delivery',[Pages::class,'delivery'])->name('delivery');

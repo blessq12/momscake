@@ -16,13 +16,17 @@ class Pages extends Controller
             'description' => 'Описание главной страницы'
         ]);
     }
-    public function about(){
 
-    }
     public function catalog(){
-
+        return view('catalog',[
+            'title' => 'Каталог товаров',
+            'description' => 'Описание главной страницы'
+        ]);
     }
-    public function contact(){
-
+    public function delivery(){
+        return view('delivery',[
+            'title' => 'Заказ и доставка',
+            'description' => 'Описание главной страницы'
+        ]);
     }
 }

@@ -14,8 +14,6 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="{{  asset('assets/css/responsive.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/css/theme-dark.css') }}">
-        <link rel="icon" type="image/png" href="assets/images/favicon.png">
-
         <title>{{ $title ?? 'Название страницы' }} - {{ config('app.name') }}</title>
     </head>
     <body>
